@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>The table element</h1>
+
+<table>
+  <tr>
+    <th>date</th>
+    <tr>title</th>
+    <th>auther</th>
+    <th>rating</th>
+    <th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+</body>
+</html>
