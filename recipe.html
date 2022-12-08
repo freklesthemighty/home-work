@@ -9,11 +9,20 @@
         * {
           box-sizing: border-box;
         }
-        
+        #myheader{
+          background-color:black;
+          color:white;
+          padding:20px;
+        }
+
         body {
           font-family: Arial, Helvetica, sans-serif;
         }
-        
+        .recipe {
+          background-color:rgb(21, 183, 137);
+          padding:10px;
+        }
+
         card-group { 
             display: flex;
         }
@@ -22,14 +31,14 @@
 </head>
 <body>
 
-<div style="background-color:black;color:white;padding:20px;">
+<div id="myHeader">
   <h2>Recipes</h2>
-  <!-- <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p> -->
-</div> 
+  <p>Cooks Calens infamous dishes</p>
+</div>
 
 
 <div class="card-group" style="display: flex;">
-  <div class="card">
+  <div class="recipe">
     <img src="images/lightning.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
@@ -37,7 +46,7 @@
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
-  <div class="card">
+  <div class="recipe">
     <img src="images/whiteclouds.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
@@ -45,7 +54,7 @@
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
-  <div class="card">
+  <div class="recipe">
     <img src="images/snow.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
