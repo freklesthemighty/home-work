@@ -9,6 +9,22 @@
     <style>
       * {box-sizing: border-box}
       
+      /* https://www.w3schools.com/css/css_colors.asp */
+
+      header{
+        color:#555;
+        background-color: blue;
+        padding:10px
+
+      }
+
+      nav{
+        color:aquamarine;
+        background-color: thistle;
+        margin:20px;
+      }
+
+
       /* Set height of body and the document to 100% */
       body, html {
         height: 100%;
@@ -16,6 +32,7 @@
         font-family: Arial;
       }
       
+
       /* Style tab links */
       .tablink {
         background-color: #555;
@@ -52,18 +69,14 @@
 <body>    
 
 <header>
-  
-
+ 
   <div class="navbar">
     <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-    <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+    <!-- <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
     <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-    <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+    <a href="#"><i class="fa fa-fw fa-user"></i> Login</a> -->
   </div>
      
- 
-  
-
 </header>
 
 <section>
@@ -78,11 +91,11 @@
     </ul>
   </nav>
  
-  <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+  <!-- <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
   <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
   <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
   <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
-  
+   -->
   <div id="Home" class="tabcontent">
     <h3>Home</h3>
     <p>Home is where the heart is..</p>
