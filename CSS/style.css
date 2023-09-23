@@ -1,26 +1,38 @@
 
-* {
-  box-sizing: border-box;
-}
+* {box-sizing: border-box}
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+/* https://www.w3schools.com/css/css_colors.asp */
+
+
+
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
 }
 
 /* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
+header{
+  color:#b7b8b5;
+  background-color: rgb(10, 10, 110);
+  padding:10px;
   font-size: 35px;
-  color: white;
+  text-align: center;
 }
 
 /* Create two columns/boxes that floats next to each other */
+
+
 nav {
+  
+  color:rgb(10, 10, 110);
+  background-color: rgb(255, 255, 255);
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  width: 20%;
   background: #ccc;
   padding: 20px;
 }
@@ -34,9 +46,8 @@ nav ul {
 article {
   float: left;
   padding: 20px;
-  width: 70%;
+  width: 80%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
 }
 
 
@@ -76,3 +87,35 @@ thead{background-color: blue; color:black}
 table, th, td {
   border: black;}
     
+
+
+      /* Style tab links */
+      .tablink {
+        background-color: #555;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 25%;
+      }
+      
+      .tablink:hover {
+        background-color: #777;
+      }
+      
+      /* Style the tab content (and add height:100% for full page content) */
+      .tabcontent {
+        color: white;
+        display: none;
+        padding: 100px 20px;
+        height: 100%;
+      }
+      
+      #Home {background-color: red;}
+      #News {background-color: green;}
+      #Contact {background-color: blue;}
+      #About {background-color: orange;}
+     
